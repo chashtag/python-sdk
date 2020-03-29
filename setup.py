@@ -2,7 +2,7 @@ from distutils.core import setup
 import setuptools
 setup(name='redteam',
       packages=['redteam'],
-      install_requires=['PyYAML', 'py-trello', 'BeautifulSoup', 'HTMLParser',
+      install_requires=['PyYAML', 'py-trello', 'BeautifulSoup4', 'HTMLParser',
                         'requests', 'jinja2', 'fake-useragent'],
       version='0.3.5',
       description='Red team SDK for Python.',
